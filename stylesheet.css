@@ -15,7 +15,7 @@ div.button {
 	clear: none;
 	padding: 55px;
 	margin: 20px;
-	box-shadow: 90px 10px 5px blue;
+	box-shadow: 90px 10px 55px blue;
 
 }
 div.buttonbox {
@@ -37,6 +37,8 @@ div.post {
 	display: block;
 	float: left;
 	border: 2px solid red;
+	margin-top: 40px;
+	padding: 10px;
 }
 div.picblock {
 	background-color: yellow;
@@ -46,6 +48,8 @@ div.picblock {
 	display: inline-block;
 	position: absolute;
 	top: 200px;
+	box-shadow: 10px 10px 95px teal;
+	margin-left: 50px;
 }
 
 h3 {
@@ -72,6 +76,16 @@ img.cats {
 	width: 150px;
 	clear: both;
 	margin-top: 100px;
-	box-shadow: 10px 10px 5px gray;
+	box-shadow: 10px 10px 45px gray;
 	margin-left: 50px;
+}
+p {
+	font-family: fantasy;
+}
+div.blogbox {
+	height: auto;
+	width: auto;
+	background-color: gray;	
+	border: 6px outset orange;
+	padding: 10px;
 }
