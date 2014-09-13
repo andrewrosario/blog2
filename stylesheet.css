@@ -1,0 +1,77 @@
+body {
+	background-color: purple;
+	font-family: Helvetica;
+}
+
+div.button {
+	border-radius: 1000px;
+	border: 2px solid black;
+	background-color: orange;
+	height: 80px;
+	width: 100px;
+	text-align: center;
+	float: left;
+	display: table;
+	clear: none;
+	padding: 55px;
+	margin: 20px;
+	box-shadow: 90px 10px 5px blue;
+
+}
+div.buttonbox {
+	border: 2px solid black;
+	height: 200px;
+	width: 700px;
+	background-color: green;
+	display: table;
+}
+a.buttontext {
+	display: table-cell;
+	vertical-align: middle;
+	font-style: italic;
+
+}
+
+div.post {
+	width: 700px;
+	display: block;
+	float: left;
+	border: 2px solid red;
+}
+div.picblock {
+	background-color: yellow;
+	width: 300px;
+	float: right;
+	height: 600px;
+	display: inline-block;
+	position: absolute;
+	top: 200px;
+}
+
+h3 {
+	font-family: cursive;
+	text-align: center;
+}
+h1 {
+	font-size: 50px;
+	font-family: serif;
+	text-align: center;
+}
+div.aboutbox {
+	background-color: red;
+	height: 900px;
+
+}
+img.pic {
+	margin: 80px;
+	position: relative;
+	top: -50px;
+}
+img.cats {
+	height: 150px;
+	width: 150px;
+	clear: both;
+	margin-top: 100px;
+	box-shadow: 10px 10px 5px gray;
+	margin-left: 50px;
+}
