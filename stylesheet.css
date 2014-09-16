@@ -2,7 +2,9 @@ body {
 	background-color: purple;
 	font-family: Helvetica;
 }
-
+a {
+	cursor: help;
+}
 div.button {
 	border-radius: 1000px;
 	border: 2px solid black;
@@ -16,6 +18,19 @@ div.button {
 	padding: 55px;
 	margin: 20px;
 	box-shadow: 90px 10px 55px blue;
+}
+h1 {
+	font-variant: small-caps;
+	text-decoration: line-through;
+}
+div.button.contact {
+	background-color: silver;
+}
+div.button.about {
+	box-shadow: 90px 10px 55px lime;
+	font-family: "Comic Sans MS";
+	font-size: 60px;
+	letter-spacing: -15px;
 
 }
 div.buttonbox {
@@ -31,7 +46,12 @@ a.buttontext {
 	font-style: italic;
 
 }
-
+div.one {
+	background-color: teal;
+}
+div.two {
+	background-color: olive;
+}
 div.post {
 	width: 700px;
 	display: block;
