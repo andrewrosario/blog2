@@ -1,7 +1,4 @@
-body {
-	background-color: purple;
-	font-family: Helvetica;
-}
+
 a {
 	cursor: help;
 }
@@ -108,4 +105,7 @@ div.blogbox {
 	background-color: gray;	
 	border: 6px outset orange;
 	padding: 10px;
+}
+.js-test {
+	background-color: purple;
 }
